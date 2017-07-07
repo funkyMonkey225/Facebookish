@@ -84,19 +84,13 @@ html {
     padding-left: 10px;
 }
 
-.favorites-menu {
+.favorites-menu,
+.adverts,
+.pages,
+.apps,
+.groups {
     padding-bottom: 10px;
     padding-left: 10px;
-}
-
-.adverts {
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-
-.pages {
-    padding-left: 10px;
-    padding-bottom: 10px;
 }
 
 .col-1-2 {
