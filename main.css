@@ -106,6 +106,14 @@ html {
     font-size: .65rem;
 }
 
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
 .col-1-2 {
     width: 50%;
 }
