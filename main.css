@@ -1,9 +1,10 @@
 html { 
-  box-sizing: border-box; 
+    font-size: 16px;
+    box-sizing: border-box; 
 } 
 
 *, *:before, *:after { 
-  box-sizing: inherit; 
+    box-sizing: inherit; 
 }
 
 * {
@@ -16,19 +17,56 @@ html {
     background-color: black;
     color: white;
 }
+
 .left-side-nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 .right-side-nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
+.right-side-nav img {
+    margin-right: 10px;
+}
+
+.left-side-nav img {
+    margin-right: 7px;
+}
+
 .logo {
-    
+    font-family: "Lucida Grande", Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.InputAddOn {
+    display: flex;
+}
+
+.InputAddOn-item {
+    background-color: white;
+}
+
+.search-field {
+    flex: 1;
+}
+
+.nav-font {
+    font-family: "Lucida Grande", Tahoma, sans-serif;
+    font-size: .75em;
+    margin-right: 22px;
+}
+
+.nav-font2 {
+    font-family: "Lucida Grande", Tahoma, sans-serif;
+    font-size: .75em;
+    margin-right: 10px;
 }
 
 .col-1-2 {
