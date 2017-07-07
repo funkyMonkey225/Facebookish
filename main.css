@@ -9,6 +9,7 @@ html {
 
 * {
     border: 1px solid purple;
+    font-family: "Lucida Grande", Tahoma, sans-serif;
 }
 
 .top-navigation {
@@ -39,7 +40,6 @@ html {
 }
 
 .logo {
-    font-family: "Lucida Grande", Tahoma, sans-serif;
     font-weight: bolder;
     font-size: 1.2em;
     margin-right: 25px;
@@ -58,13 +58,11 @@ html {
 }
 
 .nav-font {
-    font-family: "Lucida Grande", Tahoma, sans-serif;
     font-size: .75em;
     margin-right: 22px;
 }
 
 .nav-font2 {
-    font-family: "Lucida Grande", Tahoma, sans-serif;
     font-size: .75em;
     margin-right: 10px;
 }
