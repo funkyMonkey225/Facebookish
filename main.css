@@ -55,6 +55,7 @@ html {
 
 .search-field {
     flex: 1;
+    width: 300px;
 }
 
 .nav-font {
@@ -121,7 +122,7 @@ html {
 
 .container,
 .grid {
-    margin: 0 auto;
+    margin: 0;
     width: 960px
 }
 
