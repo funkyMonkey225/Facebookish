@@ -67,6 +67,9 @@ html {
     font-size: .75em;
     margin-right: 10px;
 }
+.grey-left-border {
+    border-left: .5px solid lightslategray;
+}
 
 .main-picture {
     display: flex;
@@ -103,7 +106,7 @@ html {
 }
 
 .col-1-5 {
-    width: 25%;
+    width: 20%;
 }
 
 .col-1-2,
