@@ -108,6 +108,7 @@ html {
 
 .float-left {
     float: left;
+    margin-right: 5px;
 }
 
 .clear {
