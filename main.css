@@ -8,7 +8,7 @@ html {
 }
 
 * {
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     font-family: "Lucida Grande", Tahoma, sans-serif;
 }
 
@@ -67,8 +67,19 @@ html {
     font-size: .75rem;
     margin-right: 10px;
 }
-.grey-left-border {
-    border-left: .5px solid lightslategray;
+
+.grey-right-border {
+    border-right: .5px solid lightslategray;
+}
+
+.grey-bottom-border {
+    border-bottom: .5px solid lightslategray;
+}
+
+.ad-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .main-picture {
@@ -106,10 +117,10 @@ html {
     font-size: .65rem;
 }
 
-.float-left {
+/*.float-left {
     float: left;
     margin-right: 5px;
-}
+}*/
 
 .clear {
     clear: both;
