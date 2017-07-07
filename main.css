@@ -94,6 +94,11 @@ html {
     padding-bottom: 10px;
 }
 
+.pages {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
 .col-1-2 {
     width: 50%;
 }
