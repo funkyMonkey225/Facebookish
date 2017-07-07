@@ -10,6 +10,14 @@ html {
     border: 1px solid purple;
 }
 
+.top-navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
 .col-1-2 {
     width: 50%;
 }
