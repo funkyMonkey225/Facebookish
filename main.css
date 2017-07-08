@@ -72,6 +72,10 @@ html {
     border-bottom: .5px solid lightslategray;
 }
 
+.bottom-right-padding {
+    padding-bottom: 10px;
+}
+
 .right-ad-heading {
     display: flex;
     justify-content: center;
