@@ -68,18 +68,30 @@ html {
     margin-right: 10px;
 }
 
-.grey-right-border {
-    border-right: .5px solid lightslategray;
+.right-ad-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-weight: 800;
 }
 
-.grey-bottom-border {
+.pic-text-right {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
     border-bottom: .5px solid lightslategray;
 }
 
-.ad-flex {
+.pic-right {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.right-text-flex {
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .main-picture {
@@ -117,6 +129,10 @@ html {
     font-size: .65rem;
 }
 
+.top-right-padding {
+    padding-top: 40px;
+}
+
 /*.float-left {
     float: left;
     margin-right: 5px;
@@ -126,20 +142,20 @@ html {
     clear: both;
 }
 
-.col-1-2 {
-    width: 50%;
+.col-1-3ish {
+    width: 62%;
 }
 
-.col-1-4 {
-    width: 25%;
+.col-small {
+    width: 18%;
 }
 
 .col-1-5 {
     width: 20%;
 }
 
-.col-1-2,
-.col-1-4,
+.col-1-3ish,
+.col-small,
 .col-1-5 {
     display: inline-block;
     vertical-align: top;
@@ -155,7 +171,7 @@ html {
 .container,
 .grid {
     margin: 0;
-    width: 960px
+    width: 1000px
 }
 
 .container {
