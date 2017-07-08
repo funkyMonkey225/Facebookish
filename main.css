@@ -68,6 +68,10 @@ html {
     margin-right: 10px;
 }
 
+.grey-bottom-border {
+    border-bottom: .5px solid lightslategray;
+}
+
 .right-ad-heading {
     display: flex;
     justify-content: center;
