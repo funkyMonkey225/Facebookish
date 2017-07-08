@@ -54,6 +54,8 @@ html {
 
 .InputAddOn-item {
     background-color: white;
+    padding-left: 3px;
+    padding-top: 3px;
 }
 
 .search-field {
