@@ -184,7 +184,7 @@ html {
 .container,
 .grid {
     margin: 0;
-    width: 1000px
+    width: 100%
 }
 
 .container {
