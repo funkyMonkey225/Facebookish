@@ -73,11 +73,17 @@ html {
     border-bottom: .5px solid lightslategray;
 }
 
+.grey-right-border {
+    border-right: .5px solid lightslategray;
+}
+
 .bottom-right-padding {
     padding-bottom: 10px;
 }
 
 .right-top-bottom-padding {
+    display: flex;
+    justify-content: space-between;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -147,10 +153,9 @@ html {
     padding-top: 40px;
 }
 
-/*.float-left {
-    float: left;
-    margin-right: 5px;
-}*/
+.right-margin {
+    margin-right: 10px;
+}
 
 .clear {
     clear: both;
