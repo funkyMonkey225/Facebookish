@@ -49,7 +49,7 @@ html {
 
 .InputAddOn {
     display: flex;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 .InputAddOn-item {
@@ -81,10 +81,6 @@ html {
 
 .grey-right-border {
     border-right: .5px solid lightslategray;
-}
-
-.bottom-right-padding {
-    padding-bottom: 10px;
 }
 
 .right-top-bottom-padding {
@@ -158,14 +154,12 @@ html {
 
 .top-right-padding {
     padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 .right-margin {
     margin-right: 10px;
-}
-
-.clear {
-    clear: both;
 }
 
 .col-1-3ish {
