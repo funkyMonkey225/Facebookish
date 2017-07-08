@@ -15,6 +15,7 @@ html {
 .top-navigation {
     display: flex;
     justify-content: space-between;
+    padding: 3px;
     background-color: black;
     color: white;
 }
@@ -42,11 +43,13 @@ html {
 .logo {
     font-weight: bolder;
     font-size: 1.2rem;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 30px;
 }
 
 .InputAddOn {
     display: flex;
+    margin-left: 10px;
 }
 
 .InputAddOn-item {
@@ -169,13 +172,13 @@ html {
     width: 18%;
 }
 
-.col-1-5 {
+.col-1-5ish {
     width: 20%;
 }
 
 .col-1-3ish,
 .col-small,
-.col-1-5 {
+.col-1-5ish {
     display: inline-block;
     vertical-align: top;
 }
@@ -183,7 +186,7 @@ html {
 .grid,
 .col-1-2,
 .col-1-4,
-.col-1-5 {
+.col-1-5ish {
     padding: 0;
 }
 
