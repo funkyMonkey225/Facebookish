@@ -76,9 +76,14 @@ html {
     padding-bottom: 10px;
 }
 
+.right-top-bottom-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .right-ad-heading {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 5px;
     margin-bottom: 3px;
     font-weight: 800;
